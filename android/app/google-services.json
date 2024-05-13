@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820461626511",
+    "project_id": "credenciales-alumnos",
+    "storage_bucket": "credenciales-alumnos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820461626511:android:8ac3c764e3bfc452debcfa",
+        "android_client_info": {
+          "package_name": "com.example.credenciales_alumnos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtDZT9R1opG4B1VJxfJpbzBwux2Kqle90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
