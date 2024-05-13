@@ -1,10 +1,13 @@
 workflows:
-  sample-workflow:
-    name: Codemagic Sample Workflow
+  ios:
+    name: iOS Build and Distribute
     max_build_duration: 120
     instance_type: mac_mini
+    environment:
+      flutter: latest
     scripts:
       - name: Install dependencies
         script: flutter pub get
       - name: Build iOS app
         script: flutter build ios --release
+
